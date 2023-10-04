@@ -29,9 +29,7 @@ class ImageTextOverlay:
     def draw_text_on_image(self, image, text, font_size, x, y, font, alignment, color):
         # Convert tensor to numpy array and then to PIL Image
         image_tensor = image
-        print(np.shape(image),"--")
         image_np = image_tensor.cpu().numpy()  # Change from CxHxW to HxWxC for Pillow
-        print(np.shape(image_np),"--aa_")
         image = Image.fromarray((image_np.squeeze(0) * 255).astype(np.uint8))  # Convert float [0,1] tensor to uint8 image
 
         # Convert color from INT to RGB tuple

@@ -23,5 +23,5 @@ Works well with controlnet.
 
 ## Feedback & Contributions
 
-If you have feedback or would like to contribute to the development of this plugin, please [contact us](mailto:your_email@domain.com) or submit a pull request.
+If you have feedback or would like to contribute to the development of this plugin, please submit a pull request.
 

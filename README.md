@@ -11,7 +11,7 @@ The ComfyUI Text Overlay Plugin provides functionalities for superimposing text 
 - **Font Selection**: Provide a path to any font on your system to utilize it within the plugin.
 - **Font Size**: Adjust the text size based on your requirements.
 - **Text Alignment**: Align text to the left, center, or right relative to the specified `x` coordinate.
-- **Color Customization**: Define the text color using RGB values.
+- **Color Customization**: Define the text color using RGB values. Use hex (0xFFFFFF)
 
 ## Usage
 

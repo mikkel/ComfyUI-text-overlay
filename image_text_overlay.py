@@ -45,7 +45,8 @@ class ImageTextOverlay:
         draw = ImageDraw.Draw(image)
 
         # Adjust x coordinate based on alignment
-        text_width, text_height = draw.textsize(text, font=loaded_font)
+        left, top, right, bottom = draw.textbbox((0, 0), text, font=loaded_font)
+        text_width = right - left
         if alignment == "center":
             x -= text_width // 2
         elif alignment == "right":

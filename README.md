@@ -25,3 +25,8 @@ Works well with controlnet.
 
 If you have feedback or would like to contribute to the development of this plugin, please submit a pull request.
 
+
+
+## Security updates
+
+Use Python 3.11 or newer and install `requirements.txt` in the same ComfyUI environment, then restart ComfyUI. Pillow 13 includes the October 2026 image/font and native decoder fixes. This repository change does not update an already-running ComfyUI process.

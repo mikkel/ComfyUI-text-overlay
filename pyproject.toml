@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-text-overlay"
+description = "The ComfyUI Text Overlay Plugin provides functionalities for superimposing text on images. Users can select different font types, set text size, choose color, and adjust the text's position on the image."
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/mikkel/ComfyUI-text-overlay"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-text-overlay"
+Icon = ""

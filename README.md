@@ -17,7 +17,10 @@ The ComfyUI Text Overlay Plugin provides functionalities for superimposing text 
 
 * Add the "Image Text Overlay" plugin
 * Attach an image
-* Output to an image
+* Output the image with text applied to every frame in the batch
+
+The default uses Arial when it is installed and falls back to Pillow's
+built-in font when Arial is unavailable.
 
 Works well with controlnet.
 
